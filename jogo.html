@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knight Warrior</title>
+    <link rel="stylesheet" href="jogo.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1 class="titulo">KNIGHT WARRIOR</h1>
+            <section class="espada">
+                <img src="Espada-pixelizada-Png-removebg-preview.png" alt="espadaImagem" id="Espada">
+            </section>
+        </header>
+        <nav id="navBar" hidden>
+            <button id="botaoReiniciar">REINICIAR</button>
+            <button id="botaoVoltarNav">VOLTAR</button>
+            <button id="botaoPausar">PAUSAR</button>
+        </nav>
+        <div style="position: relative;">
+            <canvas id="gameCanvas" width="600" height="400" hidden></canvas>
+            <div id="pauseOverlay" class="overlay">
+                <h2>JOGO PAUSADO</h2>
+                <button id="botaoResumir">RESUMIR</button>
+                <button id="botaoReiniciarPausa">REINICIAR</button>
+                <button id="botaoVoltarPausa">VOLTAR</button>
+            </div>
+            <div id="gameOverOverlay" class="overlay">
+                <h2>GAME OVER</h2>
+                <button id="botaoReiniciarGameOver">REINICIAR</button>
+                <button id="botaoVoltarGameOver">VOLTAR</button>
+            </div>
+            <div id="victoryOverlay" class="overlay">
+                <h2>VOCÊ VENCEU!</h2>
+                <button id="botaoReiniciarVictory">REINICIAR</button>
+                <button id="botaoVoltarVictory">VOLTAR</button>
+            </div>
+        </div>
+        <div class="telaInicio">
+            <button id="botaoInicio">INICIAR</button>
+         
+        </div>
+        <audio id="backgroundMusic" loop>
+            <source src="path/to/background-music.mp3" type="audio/mp3">
+        </audio>
+        <audio id="transitionSound">
+            <source src="path/to/transition-sound.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <div id="gameOverOverlay" class="overlay">
+        <div class="overlay-content">
+            <h1 style="font-family: 'Press Start 2P', cursive; color: white; text-align: center;">FIM DE JOGO</h1>
+            <button id="botaoReiniciarGameOver" class="overlay-button">REINICIAR</button>
+            <button id="botaoVoltarGameOver" class="overlay-button">VOLTAR</button>
+        </div>
+    </div>
+    
+    <script src="jogo.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knight Warrior</title>
+    <link rel="stylesheet" href="jogo.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1 class="titulo">KNIGHT WARRIOR</h1>
+            <section class="espada">
+                <img src="Espada-pixelizada-Png-removebg-preview.png" alt="espadaImagem" id="Espada">
+            </section>
+        </header>
+        <nav id="navBar" hidden>
+            <button id="botaoReiniciar">REINICIAR</button>
+            <button id="botaoVoltarNav">VOLTAR</button>
+            <button id="botaoPausar">PAUSAR</button>
+        </nav>
+        <div style="position: relative;">
+            <canvas id="gameCanvas" width="600" height="400" hidden></canvas>
+            <div id="pauseOverlay" class="overlay">
+                <h2>JOGO PAUSADO</h2>
+                <button id="botaoResumir">RESUMIR</button>
+                <button id="botaoReiniciarPausa">REINICIAR</button>
+                <button id="botaoVoltarPausa">VOLTAR</button>
+            </div>
+            <div id="gameOverOverlay" class="overlay">
+                <h2>GAME OVER</h2>
+                <button id="botaoReiniciarGameOver">REINICIAR</button>
+                <button id="botaoVoltarGameOver">VOLTAR</button>
+            </div>
+            <div id="victoryOverlay" class="overlay">
+                <h2>VOCÊ VENCEU!</h2>
+                <button id="botaoReiniciarVictory">REINICIAR</button>
+                <button id="botaoVoltarVictory">VOLTAR</button>
+            </div>
+        </div>
+        <div class="telaInicio">
+            <button id="botaoInicio">INICIAR</button>
+         
+        </div>
+        <audio id="backgroundMusic" loop>
+            <source src="path/to/background-music.mp3" type="audio/mp3">
+        </audio>
+        <audio id="transitionSound">
+            <source src="path/to/transition-sound.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <div id="gameOverOverlay" class="overlay">
+        <div class="overlay-content">
+            <h1 style="font-family: 'Press Start 2P', cursive; color: white; text-align: center;">FIM DE JOGO</h1>
+            <button id="botaoReiniciarGameOver" class="overlay-button">REINICIAR</button>
+            <button id="botaoVoltarGameOver" class="overlay-button">VOLTAR</button>
+        </div>
+    </div>
+    
+    <script src="jogo.js"></script>
+</body>
+</html>
